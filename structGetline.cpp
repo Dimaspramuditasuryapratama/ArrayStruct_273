@@ -21,7 +21,7 @@ int main(){
     cin >> mhs.nim;
     cin.ignore();
     cout << "Masukkan nama = ";
-    getline(cin , mhs.nama);
+    getline(cin , mhs[i].nama);
     cout << "Masukkan alamat = ";
     cin >> mhs.alamat.desa;
     cout << "Masukkan Alamat kota = ";
